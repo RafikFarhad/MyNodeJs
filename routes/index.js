@@ -13,7 +13,7 @@ router.get('/dashboard', function(req, res, next) {
     res.send('This is dashboard');
 });
 
-
-
-
+router.get('/chat', function(req, res, next) {
+    res.render('chat', { title: 'ChitChat' });
+});
 
